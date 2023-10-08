@@ -6,8 +6,8 @@ import '../core.dart';
 
 class Api {
   static final Map<String, String> _header = {
-    "X-RapidAPI-Key": RAPID_API_KEY,
-    "X-RapidAPI-Host": RAPID_API_HOST,
+    "X-RapidAPI-Key":  "08fa60901amsh37168630b70a793p16cae1jsn9bb5d7e4a262",//RAPID_API_KEY,
+    "X-RapidAPI-Host":  "covid-193.p.rapidapi.com"//RAPID_API_HOST,
   };
 
   static dynamic _returnResponse(http.Response response) {
